@@ -1,0 +1,43 @@
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Logs ---
+*.log
+
+# --- Runtime data / generated artifacts ---
+data/
+
+# --- Debug artifacts ---
+*.debug.png
+meeting_bot_debug_*.png
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Alembic (keep migration scripts, ignore local sqlite if any) ---
+*.sqlite3
+*.sqlite3-journal
+
+# --- Celery ---
+celerybeat-schedule
+celerybeat.pid
